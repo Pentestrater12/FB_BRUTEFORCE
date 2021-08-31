@@ -181,7 +181,7 @@ def args():
 # =============> Main <=============
 def main(args=None):
     print(CliColors.HEADER+"""
-                             Coded By Prince Gutierrez GitHub Pentestrater12
+                        Coded By Prince Gutierrez GitHub Pentestrater12
                           _____              _                 _
                          |  ___|_ _  ___ ___| |__   ___   ___ | | __
                          | |_ / _` |/ __/ _ \ '_ \ / _ \ / _ \| |/ /
@@ -205,7 +205,7 @@ def main(args=None):
         if args and args.password_list:
             password_file = args.password_list
         else:
-            password_file = input(CliColors.OKBLUE+"[?] Password List Filename: \t")
+            password_file = input(CliColors.OKBLUE+"[?] WORLDLIST: \t")
 
         if os.path.exists(password_file):
             with open(password_file, 'rt', newline='', encoding='utf-8') as file:
