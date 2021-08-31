@@ -229,7 +229,7 @@ def main(args=None):
         if len(password) < MIN_PASSWORD_LENGTH:
             _log.write_colored("[!] Password '{}' is less than {} characters and has been ignored.".format(password, MIN_PASSWORD_LENGTH), 'grey')
             continue
-        _log.write_colored("[*] Attempt #{} with user: '{}' and password: '{}'.".format(index, user, password), 'yellow')
+        _log.write_colored("[*] PENTESTRATING/CRACKING/HACKING: '{}' and password: '{}'.".format(index, user, password), 'yellow')
       
         
         LoginOp = Login(user, password, index)
